@@ -191,7 +191,7 @@ const generateToken = (res, user) => {
 
     // Only set domain in production, and let it default to the request domain
     if (process.env.NODE_ENV === 'production') {
-        cookieOptions.domain = 'hnb-library-system.onrender.com';
+        cookieOptions.domain = 'hnbgu-library-portal.onrender.com';
     }
 
     res.cookie("token", token, cookieOptions);
