@@ -16,7 +16,14 @@ const protect = (role) => async (req, res, next) => {
         req.user = user; // This is crucial - make sure this line exists
         next();
     } catch (error) {
-        // ... error handling
+        console.error("Token verification error:", error);
+        if (error.name === 'JsonWebTokenError') {
+            return res.status(401).json({ message: "Invalid token." });
+        }
+        if (error.name === 'TokenExpiredError') {
+            return res.status(401).json({ message: "Token expired." });
+        }
+        return res.status(401).json({ message: "Not authorized, token failed." });
     }
 };
 
