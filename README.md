@@ -96,7 +96,7 @@ For testing purposes, you can use the following credentials to log in:
 
 You will need to create this user in your database first. You can use the "Add Librarian" feature or create it directly in your MongoDB instance with the role `admin`. The password will be automatically hashed when the user is created through the application.
 
-## サンプルデータ
+## Sample Data
 
 The root directory contains sample CSV files (`sample_books.csv` and `sample_users.csv`) that you can use with the bulk import feature in the admin panel.
 
