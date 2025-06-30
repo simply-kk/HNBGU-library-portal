@@ -18,9 +18,9 @@ app.use(cookieParser());
 // CORS Configuration
 const allowedOrigins = [
   'http://localhost:5173',
-  'https://hnb-library-system.vercel.app',
-  // 'https://hnb-library-system.onrender.com', // ✅ Add this line
-  'https://hnb-library-system-git-main-adarshs-projects-3c69f35f.vercel.app',
+  // 'https://hnb-library-system.vercel.app',
+  // // 'https://hnb-library-system.onrender.com', // ✅ Add this line
+  // 'https://hnb-library-system-git-main-adarshs-projects-3c69f35f.vercel.app',
 ];
 
 

@@ -1,0 +1,26 @@
+Accession Number,Author Name,Book Name,Category,Publication,Year,Total Pages,Supplier,Price
+B1001,Andrew S. Tanenbaum,Computer Networks,Computer Network,Pearson,2020,950,TechBooks Pvt Ltd,799
+B1002,Abraham Silberschatz,Operating System Concepts,Operating System,Wiley,2019,920,BookWorld Ltd,899
+B1003,Thomas H. Cormen,Introduction to Algorithms,Data Structure,MIT Press,2022,1312,KnowledgeMart,1199
+B1004,Elmasri & Navathe,Fundamentals of Database Systems,Database,Pearson,2021,860,TechBooks Pvt Ltd,849
+B1005,Robert C. Martin,Clean Code,Programming,Pearson,2020,464,CodePress,699
+B1006,James Kurose,Computer Networking: A Top-Down Approach,Computer Network,Pearson,2018,880,TechSupply,779
+B1007,William Stallings,Operating Systems: Internals and Design,Operating System,Pearson,2019,820,Academic Supply Co.,899
+B1008,Rich Hickey,The Joy of Clojure,Programming,Manning,2020,450,DevBookHub,649
+B1009,Kenneth H. Rosen,Discrete Mathematics and Its Applications,Mathematics,McGraw-Hill,2021,1072,BookWorld Ltd,999
+B1010,Samir K Mahajan,Data Structures Using C++,Data Structure,Oxford,2019,720,TechBooks Pvt Ltd,679
+B1011,Mark Allen Weiss,Data Structures and Algorithm Analysis,Data Structure,Pearson,2020,784,KnowledgeMart,759
+B1012,George Coulouris,Distributed Systems,Distributed Systems,Pearson,2022,944,TechSupply,899
+B1013,Ian Sommerville,Software Engineering,Software Engineering,Pearson,2019,832,Academic Supply Co.,849
+B1014,Gayle Laakmann McDowell,Cracking the Coding Interview,Programming,CareerCup,2021,706,CodePress,999
+B1015,Charles Petzold,Code: The Hidden Language,Computer Science,Microsoft Press,2020,400,DevBookHub,499
+B1016,Martin Fowler,Refactoring,Programming,Addison-Wesley,2019,448,TechBooks Pvt Ltd,899
+B1017,Robert Sedgewick,Algorithms in C++,Data Structure,Addison-Wesley,2021,664,KnowledgeMart,799
+B1018,David A. Patterson,Computer Organization and Design,Computer Architecture,Morgan Kaufmann,2020,960,BookWorld Ltd,899
+B1019,Navathe,Database Management Systems,Database,McGraw-Hill,2022,812,Academic Supply Co.,789
+B1020,Bjarne Stroustrup,The C++ Programming Language,Programming,Addison-Wesley,2018,1366,CodePress,999
+B1021,Jon Bentley,Programming Pearls,Programming,Addison-Wesley,2021,256,DevBookHub,499
+B1022,John L. Hennessy,Computer Architecture: A Quantitative Approach,Computer Architecture,Morgan Kaufmann,2020,936,TechBooks Pvt Ltd,1099
+B1023,Brian W. Kernighan,The C Programming Language,Programming,Prentice Hall,2019,274,KnowledgeMart,499
+B1024,David Malan,Introduction to Computer Science,Computer Science,O’Reilly,2021,550,BookWorld Ltd,699
+B1025,Steven S. Skiena,The Algorithm Design Manual,Data Structure,Springer,2022,730,TechSupply,849
