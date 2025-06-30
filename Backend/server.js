@@ -20,9 +20,6 @@ const allowedOrigins = [
   'http://localhost:5173',
   'https://hnbgu-library-portal.vercel.app',
   'https://hnbgu-library-portal.onrender.com',
-  'https://vercel.com/md-khalid-khans-projects/hnbgu-library-portal/GT3L4KccEe6aPTqv1om96pzwPJyJ'
-
-  // 'https://hnb-library-system-git-main-adarshs-projects-3c69f35f.vercel.app',
 ];
 
 
