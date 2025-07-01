@@ -96,6 +96,15 @@ const issueBooksToStudent = async (req, res) => {
       return res.status(400).json({ success: false, message: "Missing required fields" });
     }
 
+    // Prevent issuing books with a back date
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    const issueDateObj = new Date(issueDate);
+    issueDateObj.setHours(0, 0, 0, 0);
+    if (issueDateObj < today) {
+      return res.status(400).json({ success: false, message: "Cannot issue books with a back date." });
+    }
+
     const student = await User.findById(studentId);
     if (!student || student.role !== "student") {
       return res.status(404).json({ success: false, message: "Student not found" });
