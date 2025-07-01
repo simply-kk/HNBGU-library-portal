@@ -30,4 +30,6 @@ UserSchema.pre("save", function (next) {
     next();
 });
 
+UserSchema.index({ rollNumber: 1, batch: 1, department: 1 }, { unique: true, partialFilterExpression: { role: "student" } });
+
 module.exports = mongoose.model("User", UserSchema);

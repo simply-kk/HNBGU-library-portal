@@ -164,6 +164,12 @@ exports.createStudent = async (req, res) => {
             return res.status(400).json({ message: "A student with this email already exists!" });
         }
 
+        // Check for duplicate rollNumber, batch, department
+        const duplicateCombo = await User.findOne({ rollNumber, batch, department, role: "student" });
+        if (duplicateCombo) {
+            return res.status(400).json({ message: "A student with this roll number, batch, and department already exists!" });
+        }
+
         // Generate password based on the student's name
         const firstName = name.split(" ")[0]; // Extract the first name
         const password = `${firstName.substring(0, 2)}@123`; // First two letters + "@123"
@@ -242,6 +248,12 @@ exports.updateStudent = async (req, res) => {
 
         if (!student) {
             return res.status(404).json({ message: "Student not found!" });
+        }
+
+        // Check for duplicate rollNumber, batch, department (excluding current student)
+        const duplicateCombo = await User.findOne({ _id: { $ne: id }, rollNumber, batch, department, role: "student" });
+        if (duplicateCombo) {
+            return res.status(400).json({ message: "A student with this roll number, batch, and department already exists!" });
         }
 
         res.status(200).json({ message: "Student updated successfully!", student });
