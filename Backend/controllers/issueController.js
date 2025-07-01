@@ -105,6 +105,13 @@ const issueBooksToStudent = async (req, res) => {
       return res.status(400).json({ success: false, message: "Cannot issue books with a back date." });
     }
 
+    // Prevent due date before issue date
+    const dueDateObj = new Date(dueDate);
+    dueDateObj.setHours(0, 0, 0, 0);
+    if (dueDateObj < issueDateObj) {
+      return res.status(400).json({ success: false, message: "Due date cannot be back date or before issue date." });
+    }
+
     const student = await User.findById(studentId);
     if (!student || student.role !== "student") {
       return res.status(404).json({ success: false, message: "Student not found" });
