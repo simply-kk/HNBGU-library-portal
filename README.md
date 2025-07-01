@@ -1,5 +1,7 @@
 # HNBGU Library Portal
 
+[🌐 **Live Demo**](https://hnbgu-library-portal.vercel.app)
+
 A comprehensive MERN stack application to manage library operations for Hemvati Nandan Bahuguna Garhwal University (HNBGU). This portal provides separate interfaces for Admins and Students to manage books, track issue/return history, and handle notifications.
 
 ## 📸 Screenshots
