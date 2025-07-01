@@ -2,6 +2,22 @@
 
 A comprehensive MERN stack application to manage library operations for Hemvati Nandan Bahuguna Garhwal University (HNBGU). This portal provides separate interfaces for Admins and Students to manage books, track issue/return history, and handle notifications.
 
+## 📸 Screenshots
+
+> Place your screenshots in the `screenshots/` folder in the project root. Example images are referenced below:
+
+**Admin Dashboard:**
+![Admin Dashboard](./screenshots/admin-dashboard.png)
+
+**Student Dashboard:**
+![Student Dashboard](./screenshots/student-dashboard.png)
+
+**Book Management:**
+![Book Management](./screenshots/book-management.png)
+
+**Login Page:**
+![Login Page](./screenshots/login.png)
+
 ## ✨ Features
 
 - **Admin Dashboard**: Centralized hub for all administrative tasks.
