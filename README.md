@@ -100,6 +100,10 @@ You will need to create this user in your database first. You can use the "Add L
 
 The root directory contains sample CSV files (`sample_books.csv` and `sample_users.csv`) that you can use with the bulk import feature in the admin panel.
 
+**Student Default Password:**
+When a new student is created, their initial password is set to the first two letters of their first name (case-sensitive) followed by `@123`.
+For example, a student named "Amit Kumar" will have the default password `Am@123`.
+
 ## 📝 API Endpoints
 
 The backend exposes the following REST API endpoints:
