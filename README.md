@@ -4,19 +4,22 @@ A comprehensive MERN stack application to manage library operations for Hemvati 
 
 ## 📸 Screenshots
 
-> Place your screenshots in the `screenshots/` folder in the project root. Example images are referenced below:
+> The following screenshots show key features of the portal. Images are located in the `screenshots/` folder.
 
-**Admin Dashboard:**
-![Admin Dashboard](./screenshots/admin-dashboard.png)
+**Home Page:**
+![Home Page](./screenshots/homePage.jpg)
 
-**Student Dashboard:**
-![Student Dashboard](./screenshots/student-dashboard.png)
+**Dashboard:**
+![Dashboard](./screenshots/Dashboard.jpg)
 
-**Book Management:**
-![Book Management](./screenshots/book-management.png)
+**Bulk Import Books:**
+![Bulk Import Books](./screenshots/BulkImportBooks.jpg)
 
-**Login Page:**
-![Login Page](./screenshots/login.png)
+**Librarian Login Page:**
+![Librarian Login Page](./screenshots/LoginPageLibrarian.jpg)
+
+**Student Login Page:**
+![Student Login Page](./screenshots/LoginPageStudent.jpg)
 
 ## ✨ Features
 
